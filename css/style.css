@@ -1,0 +1,245 @@
+/*
+CSS RESETS:
+ Border box reset:
+https://www.paulirish.com/2012/box-sizing-border-box-ftw/
+ 62.5% Fix: https: //www.aleksandrhovhannisyan.com/blog/62-5-percent-font-size-trick/
+*/
+
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+ 
+ 
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+ 
+ 
+html,
+body {
+    height: 100%;
+}
+ 
+ 
+body {
+    font-size: 1.6rem;
+    line-height: 1.6;
+    background-color: #000000;
+    color: #ffffff;
+}
+ 
+header {
+    padding: 20px;
+    background-color: #000000;
+    text-align: center;
+}
+s
+main {
+    max-width: 1000px;
+    margin: 50px 100px; 
+}
+
+h2 {
+    color:#ff0000;
+    font-size: 3rem;
+    position: absolute;
+    top: 150px;
+    right: 850px;
+}
+
+h3 {
+    color:#ff0000;
+    font-size: 3rem;
+    position: absolute;
+    top: 350px;
+    right: 850px;
+    margin: 100px;
+}
+
+h4 {
+    color:#ff0000;
+    font-size: 3rem;
+    position: absolute;
+    top: 800px;
+    right: 700px;
+    margin: 100px;
+}
+
+h5 {
+    color:#ff0000;
+    font-size: 3rem;
+    position: absolute;
+    top: 1050px;
+    right: 800px;
+    margin: 100px;
+}
+
+p {
+    color: #ffc0cb;
+    font-size: 3rem;
+    position: absolute;
+    top: 1400px;
+    right: 200px;
+}
+
+p:hover {
+    color: #ff00ff;
+}
+
+.image-div {
+    display: inline-block;
+}
+
+#image-0 {
+    position: absolute;
+    top: 450px;
+    right: 350px;
+}
+
+#image-1 {
+    position: absolute;
+    top: 500px;
+    right: 550px;
+}
+
+#image-2 {
+    position: absolute;
+    top: 550px;
+    right: 300px;
+}
+
+#image-3 {
+    position: absolute;
+    top: 780px;
+    right: 350px;
+}
+
+#image-4 {
+   position: absolute;
+   top: 1250px;
+   right: 100px;
+}
+
+#image-5 {
+    position: absolute;
+    top: 350px;
+    right: 400px;
+}
+
+#image-6 {
+    position: absolute;
+    top: 250px;
+    right: 500px;
+}
+
+#image-7 {
+    position: absolute;
+    top: 600px;
+    right: 500px;
+}
+
+#image-8 {
+    position: absolute;
+    top: 150px;
+    right: 400px;
+}
+
+#image-9 {
+    position: absolute;
+    top: 650px;
+    right: 450px;
+}
+
+#image-10 {
+    position: absolute;
+    top: 200px;
+    right: 500px;
+}
+
+#image-11 {
+    position: absolute;
+    top: 830px;
+    right: 100px;
+}
+
+#image-12 {
+    position: absolute;
+    top: 400px;
+    right: 550px;
+}
+
+#image-13 {
+    position: absolute;
+    top: 1200px;
+    right: 150px;
+}
+
+#image-14 {
+    position: absolute;
+    top: 1050px;
+    right: 100px;
+}
+
+#image-15 {
+    position: absolute;
+    top: 1100px;
+    right: 500px;
+}
+
+#image-16 {
+    position: absolute;
+    top: 960px;
+    right: 400px;
+}
+
+#image-17 {
+    position: absolute;
+    top: 1010px;
+    right: 200px;
+}
+
+#image-18 {
+    position: absolute;
+    top: 300px;
+    right: 100px;
+}
+
+#image-19 {
+    position: absolute;
+    top: 710px;
+    right: 500px;
+}
+
+#image-20 {
+    position: absolute;
+    top: 1150px;
+    right: 500px;
+}
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 0 100px;
+}
+
+.image-div-2 {
+   flex: 1 1 auto;
+   color:#ffc0cb
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+#image-35 {
+    position: absolute;
+    top: 800px;
+    right: 400px;
+}
