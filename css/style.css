@@ -227,6 +227,7 @@ p:hover {
     flex-wrap: wrap;
     flex-direction: row;
     padding-top: 0 100px;
+    margin: 50px;
 }
 
 .image-div-2 {
@@ -240,6 +241,6 @@ p:hover {
 
 #image-35 {
     position: absolute;
-    top: 800px;
+    top: 900px;
     right: 400px;
 }
